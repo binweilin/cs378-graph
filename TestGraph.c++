@@ -24,7 +24,7 @@ Google Test Libraries:
     /usr/lib/libgtest_main.a
 
 To compile the test:
-    % g++-4.7 -fprofile-arcs -ftest-coverage -pedantic -std=c++11 -Wall Graph.c++ TestGraph.c++ -o TestGraph -lgtest -lgtest_main -lpthread
+    % g++-4.7 -fprofile-arcs -ftest-coverage -pedantic -std=c++11 -Wall TestGraph.c++ -o TestGraph -lgtest -lgtest_main -lpthread
 
 To run the test:
     % valgrind TestGraph
