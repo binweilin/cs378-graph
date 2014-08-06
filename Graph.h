@@ -193,15 +193,6 @@ class Graph {
          */
         friend vertex_descriptor vertex (vertices_size_type n, const Graph& g) {
             // <your code>
-            // Graph gr = g;
-            // if(find(gr.vertices.begin(), gr.vertices.end(), n) == gr.vertices.end()){
-            //     int i = 0;
-            //     while(i != n + 1){
-            //         add_vertex(gr);
-            //         i++;
-            //     }
-            // }
-
             vertex_descriptor vd = n; // fix
             return vd;}
 
